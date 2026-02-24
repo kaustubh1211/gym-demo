@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Unique Fitness Gym - Palghar">
+    <meta name="keywords" content="Gym, Fitness, Palghar, Weight Training, Cardio, CrossFit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unique Fitness Gym | Palghar</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style>
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+        }
+        .whatsapp-float a.wa-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #25D366;
+            color: #fff !important;
+            text-decoration: none;
+            padding: 12px 20px 12px 16px;
+            border-radius: 50px;
+            font-family: 'Muli', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            box-shadow: 0 4px 20px rgba(37,211,102,0.5);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        .whatsapp-float a.wa-btn:hover {
+            background: #1ebe5d;
+            transform: scale(1.05);
+            box-shadow: 0 6px 25px rgba(37,211,102,0.6);
+        }
+        .whatsapp-float a.wa-btn i {
+            font-size: 22px;
+        }
+        .whatsapp-float a.call-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #e8272a;
+            color: #fff !important;
+            text-decoration: none;
+            padding: 12px 20px 12px 16px;
+            border-radius: 50px;
+            font-family: 'Muli', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            box-shadow: 0 4px 20px rgba(232,39,42,0.4);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        .whatsapp-float a.call-btn:hover {
+            background: #c9191c;
+            transform: scale(1.05);
+        }
+        .whatsapp-float a.call-btn i {
+            font-size: 20px;
+        }
+        /* Pulse animation on WhatsApp button */
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.5); }
+            70% { box-shadow: 0 0 0 14px rgba(37,211,102,0); }
+            100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+        }
+        .wa-btn { animation: pulse-green 2s infinite; }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="canvas-search search-switch">
+            <i class="fa fa-search"></i>
+        </div>
+        <nav class="canvas-menu mobile-menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./classes.html">Classes</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./team.html">Our Team</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="canvas-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="Unique Fitness Gym">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="nav-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./about-us.html">About Us</a></li>
+                            <li><a href="./class-details.html">Classes</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./team.html">Our Team</a></li>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="top-option">
+                        <div class="to-search search-switch">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <div class="to-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas-open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text">
+                                <span>Unique Fitness Gym — Palghar</span>
+                                <h1>Be <strong>Strong</strong> Train Hard</h1>
+                                <a href="tel:+919673233125" class="primary-btn">Call to Join</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-6">
+                            <div class="hi-text">
+                                <span>Full Weight Training &amp; Cardio</span>
+                                <h1>Push Your <strong>Limits</strong> Forward</h1>
+                                <a href="https://wa.me/919673233125?text=Hi%2C%20I%20want%20to%20know%20about%20your%20classes" target="_blank" class="primary-btn">Our Classes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- ChoseUs Section Begin -->
+    <section class="choseus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Why Choose Us?</span>
+                        <h2>PUSH YOUR LIMITS FORWARD</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-034-stationary-bike"></span>
+                        <h4>Modern Equipment</h4>
+                        <p>Fully equipped with the latest weight training machines and cardio gear to support every fitness goal.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-033-juice"></span>
+                        <h4>Nutrition Guidance</h4>
+                        <p>Get expert diet and nutrition advice tailored to your body type and training program.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-002-dumbell"></span>
+                        <h4>Professional Training</h4>
+                        <p>Certified trainers design personalised workout plans — from weight training to CrossFit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="cs-item">
+                        <span class="flaticon-014-heart-beat"></span>
+                        <h4>Unique to Your Needs</h4>
+                        <p>Whether you're a beginner or a pro, our programs adapt to your pace and fitness level.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ChoseUs Section End -->
+
+    <!-- Classes Section Begin -->
+    <section class="classes-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Our Classes</span>
+                        <h2>WHAT WE OFFER</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-item">
+                        <div class="ci-pic">
+                            <img src="img/classes/class-1.jpg" alt="">
+                        </div>
+                        <div class="ci-text">
+                            <span>STRENGTH</span>
+                            <h5>Weight Training</h5>
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-item">
+                        <div class="ci-pic">
+                            <img src="img/classes/class-2.jpg" alt="">
+                        </div>
+                        <div class="ci-text">
+                            <span>CARDIO</span>
+                            <h5>Indoor Cycling</h5>
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-item">
+                        <div class="ci-pic">
+                            <img src="img/classes/class-3.jpg" alt="">
+                        </div>
+                        <div class="ci-text">
+                            <span>CROSSFIT</span>
+                            <h5>CrossFit Training</h5>
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="class-item">
+                        <div class="ci-pic">
+                            <img src="img/classes/class-4.jpg" alt="">
+                        </div>
+                        <div class="ci-text">
+                            <span>CARDIO</span>
+                            <h4>Treadmill &amp; Cardio Zone</h4>
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="class-item">
+                        <div class="ci-pic">
+                            <img src="img/classes/class-5.jpg" alt="">
+                        </div>
+                        <div class="ci-text">
+                            <span>TRAINING</span>
+                            <h4>Boxing</h4>
+                            <a href="#"><i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Classes Section End -->
+
+    <!-- Banner Section Begin -->
+    <section class="banner-section set-bg" data-setbg="img/banner-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="bs-text">
+                        <h2>Start Your Fitness Journey Today</h2>
+                        <div class="bt-tips">Where health, strength and transformation meet.</div>
+                        <a href="https://wa.me/919673233125?text=Hi%2C%20I%20want%20to%20book%20a%20free%20visit%20to%20Unique%20Fitness%20Gym" target="_blank" class="primary-btn btn-normal">Book a Free Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Pricing Section Begin -->
+    <section class="pricing-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Our Plans</span>
+                        <h2>Choose Your Membership</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8">
+                    <div class="ps-item">
+                        <h3>Monthly Plan</h3>
+                        <div class="pi-price">
+                            <h2>Contact Us</h2>
+                            <span>PER MONTH</span>
+                        </div>
+                        <ul>
+                            <li>Full gym access</li>
+                            <li>Weight training equipment</li>
+                            <li>Cardio machines</li>
+                            <li>CrossFit gear</li>
+                            <li>Trainer guidance</li>
+                        </ul>
+                        <a href="tel:+919673233125" class="primary-btn pricing-btn">📞 Call to Enquire</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="ps-item">
+                        <h3>Quarterly Plan</h3>
+                        <div class="pi-price">
+                            <h2>Contact Us</h2>
+                            <span>3 MONTHS</span>
+                        </div>
+                        <ul>
+                            <li>Full gym access</li>
+                            <li>Weight training equipment</li>
+                            <li>Cardio machines</li>
+                            <li>CrossFit gear</li>
+                            <li>Personal trainer</li>
+                            <li>Diet consultation</li>
+                        </ul>
+                        <a href="tel:+919673233125" class="primary-btn pricing-btn">📞 Call to Enquire</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="ps-item">
+                        <h3>Annual Plan</h3>
+                        <div class="pi-price">
+                            <h2>Contact Us</h2>
+                            <span>12 MONTHS</span>
+                        </div>
+                        <ul>
+                            <li>Full gym access</li>
+                            <li>Weight training equipment</li>
+                            <li>Cardio machines</li>
+                            <li>CrossFit gear</li>
+                            <li>Personal trainer</li>
+                            <li>Best value deal</li>
+                        </ul>
+                        <a href="tel:+919673233125" class="primary-btn pricing-btn">📞 Call to Enquire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section End -->
+
+    <!-- Gallery Section Begin -->
+    <div class="gallery-section">
+        <div class="gallery">
+            <div class="grid-sizer"></div>
+            <div class="gs-item grid-wide set-bg" data-setbg="img/gallery/gallery-1.jpg">
+                <a href="img/gallery/gallery-1.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+            <div class="gs-item set-bg" data-setbg="img/gallery/gallery-2.jpg">
+                <a href="img/gallery/gallery-2.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+            <div class="gs-item set-bg" data-setbg="img/gallery/gallery-3.jpg">
+                <a href="img/gallery/gallery-3.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+            <div class="gs-item set-bg" data-setbg="img/gallery/gallery-4.jpg">
+                <a href="img/gallery/gallery-4.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+            <div class="gs-item set-bg" data-setbg="img/gallery/gallery-5.jpg">
+                <a href="img/gallery/gallery-5.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+            <div class="gs-item grid-wide set-bg" data-setbg="img/gallery/gallery-6.jpg">
+                <a href="img/gallery/gallery-6.jpg" class="thumb-icon image-popup"><i class="fa fa-picture-o"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section End -->
+
+    <!-- Team Section Begin -->
+    <section class="team-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-title">
+                        <div class="section-title">
+                            <span>Our Team</span>
+                            <h2>TRAIN WITH EXPERTS</h2>
+                        </div>
+                        <a href="https://wa.me/919673233125?text=Hi%2C%20I%20want%20to%20book%20an%20appointment%20at%20Unique%20Fitness%20Gym" target="_blank" class="primary-btn btn-normal appoinment-btn">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ts-slider owl-carousel">
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/team/team-1.jpg">
+                            <div class="ts_text">
+                                <h4>Head Trainer</h4>
+                                <span>Strength &amp; Conditioning</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/team/team-2.jpg">
+                            <div class="ts_text">
+                                <h4>Cardio Specialist</h4>
+                                <span>Cardio &amp; Endurance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/team/team-3.jpg">
+                            <div class="ts_text">
+                                <h4>CrossFit Coach</h4>
+                                <span>CrossFit &amp; Functional Training</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ts-item set-bg" data-setbg="img/team/team-4.jpg">
+                            <div class="ts_text">
+                                <h4>Nutrition Coach</h4>
+                                <span>Diet &amp; Wellness</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Get In Touch Section Begin -->
+    <div class="gettouch-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="gt-text">
+                        <i class="fa fa-map-marker"></i>
+                        <p>2nd Floor, Kanchan Business Center, Devisha Rd,<br>
+                           Opposite Zudio, Lakshmiwadi, Mahim,<br>
+                           Palghar, Maharashtra 401404</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gt-text">
+                        <i class="fa fa-mobile"></i>
+                        <ul>
+                            <li>096732 33125</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gt-text email">
+                        <i class="fa fa-envelope"></i>
+                        <p>Contact us to know more about<br>membership &amp; schedules</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Get In Touch Section End -->
+
+    <!-- Footer Section Begin -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="fs-about">
+                        <div class="fa-logo">
+                            <a href="#"><img src="img/logo.png" alt="Unique Fitness Gym"></a>
+                        </div>
+                        <p>Unique Fitness Center is a gym featuring full weight training equipment as well as cardio and cross-fit gear — located in the heart of Palghar, Maharashtra.</p>
+                        <div class="fa-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="fs-widget">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="./about-us.html">About</a></li>
+                            <li><a href="./classes.html">Classes</a></li>
+                            <li><a href="./team.html">Our Team</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="fs-widget">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Weight Training</a></li>
+                            <li><a href="#">Cardio</a></li>
+                            <li><a href="#">CrossFit</a></li>
+                            <li><a href="#">Personal Training</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-widget">
+                        <h4>Find Us</h4>
+                        <div class="fw-recent">
+                            <h6>Unique Fitness Gym</h6>
+                            <p style="color:#aaa; font-size:14px;">2nd Floor, Kanchan Business Center, Devisha Rd, Opposite Zudio, Lakshmiwadi, Mahim, Palghar – 401404</p>
+                        </div>
+                        <div class="fw-recent">
+                            <h6><i class="fa fa-phone"></i> &nbsp;096732 33125</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Unique Fitness Gym. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- Floating Contact Buttons -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/919673233125?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Unique%20Fitness%20Gym%20membership" target="_blank" class="wa-btn">
+            <i class="fa fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <a href="tel:+919673233125" class="call-btn">
+            <i class="fa fa-phone"></i> Call Now
+        </a>
+    </div>
+    <!-- Floating Contact Buttons End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
